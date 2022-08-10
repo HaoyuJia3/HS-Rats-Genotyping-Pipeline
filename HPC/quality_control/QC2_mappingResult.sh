@@ -171,3 +171,4 @@ Rscript ${code}/quality_control/HS_Rats_Genotyping_Summary.r \
 conda deactivate 
 END=$(date +%s)
 echo " RMarkdown genotype summary report  time elapsed: $(( $END - $START )) seconds"
+echo " Please Delete This!"
